@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  margin: auto;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+.burger-line {
+  color: rgb(218, 224, 164);
+  padding: 10px;
+}
+
+.index-number {
+  font-size: 20px;
+  font-family: 'Baloo Tammudu', cursive;
+ 
+}
+
+/* .burger-name {
+  font-size: 30px;
+  font-family: 'Chango', cursive;
+} */
+
+.add-burger {
+  margin: auto;
+  width: 50%;
+  background-color: black
+}
+
+.delete-burger.delete-button {
+
+}
+
+/* codepen .change-devour "Simple Hover Effect by Vincent Durand" */
+.change-devour{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.1em;
+  padding:0 1em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.change-devour:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.change-devour:before,.change-devour:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.change-devour:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.change-devour:hover:before,.change-devour:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+

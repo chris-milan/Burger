@@ -1,0 +1,11 @@
+<div class="burger-line">
+	<a class="index-number">{{id}}.</a> &nbsp; &nbsp; <a class="burger-name">{{burger_name}}</a>&nbsp; &nbsp;
+
+		{{#if devour}}
+	<button class="change-devour" data-id="{{this.id}}" data-newdevour="{{devour}}">
+		<i class="fas fa-utensils"></i>&nbsp;&nbsp;&nbsp;DEVOUR IT!&nbsp;&nbsp;&nbsp;<i class="fas fa-utensils"></i>{{/if}}
+	</button>
+
+		{{#if devoured}}
+	<button class="delete-burger delete-button btn btn-outline-success" data-id="{{this.id}}"><i class="fas fa-times"></i></button>{{/if}}
+</div>
