@@ -1,6 +1,59 @@
-body {
+.main-body {
+  background-color: #FFEBBA;
   text-align: center;
-  margin: auto;
+
+  background-image:url("https://78.media.tumblr.com/cb07674d647c28b84c8ab23ab58eb16b/tumblr_mnwms5HUb21r7xgu7o1_500.gif")
+}
+
+.navbar, footer {
+  background-color: #e3f2fd;
+  font-size: 30px;
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+
+}
+
+.navbar {
+  border-bottom: solid  #939da3;
+}
+
+footer {
+  border-top: solid  #939da3
+}
+
+.main-title {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 40px;
+}
+
+.main-title-2 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 50px;
+}
+
+.container {
+  margin-bottom: 100px;
+  margin-top: 130px;
+  background-color: #FFEBBA;
+  opacity: .97;
+  padding: 50px;
+  border: 5px solid #939da3;
+
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+}
+
+.circle {
+  border:1px solid #939da3;
+  height:333px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:333px;
+
 }
 
 .form-group {
@@ -8,66 +61,109 @@ body {
 }
 
 .burger-line {
-  color: rgb(218, 224, 164);
+  color: black;
   padding: 10px;
 }
 
 .index-number {
-  font-size: 20px;
+  text-align:  left;
+  color: black;
+  font-size: 30px;
   font-family: 'Baloo Tammudu', cursive;
- 
 }
 
-/* .burger-name {
-  font-size: 30px;
+.burger-name {
+  font-size: 35px;
   font-family: 'Chango', cursive;
-} */
+}
 
 .add-burger {
-  margin: auto;
-  width: 50%;
-  background-color: black
+  text-overflow: ellipsis;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  float: right;
+  right: 0;
+  position: sticky;
+
 }
 
-.delete-burger.delete-button {
+.burger-form {
+  text-overflow: ellipsis;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  float: left;
+  left: 0;
+  position: sticky;
 
 }
 
-/* codepen .change-devour "Simple Hover Effect by Vincent Durand" */
-.change-devour{
-  background:#1AAB8A;
-  color:#fff;
+.btn-outline-info {
+  font-family: 'Petit Formal Script', cursive;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+
+/* codepen "Simple Hover Effect by Vincent Durand" */
+.animated-button{
+  background:#FFEBBA;
+  color:black;
   border:none;
   position:relative;
-  height:60px;
+  height:30px;
   font-size:1.1em;
   padding:0 1em;
   cursor:pointer;
   transition:800ms ease all;
   outline:none;
 }
-.change-devour:hover{
-  background:#fff;
-  color:#1AAB8A;
+
+.animated-button:hover{
+  background:#FFEBBA;
+  color:#939da3;
 }
-.change-devour:before,.change-devour:after{
+
+.animated-button:before,.animated-button:after{
   content:'';
   position:absolute;
   top:0;
   right:0;
   height:2px;
   width:0;
-  background: #1AAB8A;
+  background: #939da3;
   transition:400ms ease all;
 }
-.change-devour:after{
+
+.animated-button:after{
   right:inherit;
   top:inherit;
   left:0;
   bottom:0;
 }
-.change-devour:hover:before,.change-devour:hover:after{
+
+.animated-button:hover:before,.animated-button:hover:after{
   width:100%;
-  transition:800ms ease all;
+  transition:550ms ease all;
 }
 
+
+/* input box styling */
+input[type="text"] {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 13px;
+}
+::-moz-placeholder {
+  font-size: 13px;
+}
+:-ms-input-placeholder {
+  font-size: 13px;
+}
+::placeholder {
+  font-size: 13px;
+}
