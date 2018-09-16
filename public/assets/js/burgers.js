@@ -28,6 +28,9 @@ $(function() {
       devoured: 0
     };
 
+      //resets text inputted into form after a submit
+    $('form').get(0).reset() 
+
     // POST Request
     $.ajax("/api/burgers", {
       type: "POST",
