@@ -13,4 +13,4 @@ After entering a burger name in the bottom input box, the _Fresh Burger_ list po
 
 ![FriendFinder Survey](https://raw.githubusercontent.com/chris-milan/Main-Portfolio/master/assets/images/le-burger-example-4.png)
 
-The application then allows the user to devour whichever _Fresh Burger_ they like. This, pushes the burger to the _Devoured Burger_ list. Here, they can delete whichever _Devoured Burger_ they like.
+The application then allows the user to devour whichever _Fresh Burger_ they like. This pushes the burger to the _Devoured Burger_ list. Then, they can delete whichever _Devoured Burger_ they like.
